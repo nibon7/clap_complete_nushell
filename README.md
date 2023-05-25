@@ -1,5 +1,7 @@
 # clap_complete_nushell
 
+> **Note**: clap_complete_nushell is now part of [clap](https://github.com/clap-rs/clap). Any future development will move to https://github.com/clap-rs/clap/tree/master/clap_complete_nushell.
+
 Generates [Nushell](https://github.com/nushell/nushell) completions for [`clap`](https://github.com/clap-rs/clap) based CLIs
 
 [![Crates.io](https://img.shields.io/crates/v/clap_complete_nushell)](https://crates.io/crates/clap_complete_nushell)

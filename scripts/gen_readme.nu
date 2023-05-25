@@ -16,6 +16,7 @@ def generate_preamble [user: string, repo: string] {
   let branch = "main"
 
   $"# ($repo)\n
+> **Note**: clap_complete_nushell is now part of [clap]\(https://github.com/clap-rs/clap\). Any future development will move to https://github.com/clap-rs/clap/tree/master/clap_complete_nushell.\n
 Generates [Nushell]\((generate_url $github nushell/nushell)\) completions for [`clap`]\((generate_url $github clap-rs/clap)\) based CLIs\n
 [![Crates.io]\((generate_url $baseurl crates/v $repo)\)]\((generate_url $crates crates $repo)\)
 [![Crates.io]\((generate_url $baseurl crates/d $repo)\)]\((generate_url $crates crates $repo)\)
